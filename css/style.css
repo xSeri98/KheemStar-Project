@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    background-color:aliceblue;
+}
+
+.container{
+    background-color: #262626;
+    width: 1700px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 1px 2px 40px;
+   
+}
+
+.pic-container{
+    width: 1700px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container > a > img{
+    float: left;
+    position: relative;
+    left: 50px;
+    
+}
+
+.navigation-bar{
+    padding-right: 500px;
+}
+
+.navigation-bar > ul{
+margin: 0 auto;
+list-style-type: none;
+position: relative;
+
+}
+
+.navigation-bar > ul > li{
+    display: inline-block;
+    padding: 5px 5px;
+    }
+
+.navigation-bar > ul > li > a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20pt;
+    text-shadow: 8px 4px 8px black;
+    }
+
+.navigation-bar > ul > li > a:hover{
+        color:salmon;
+        }
+
+.banner{
+    width: 1700px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 1px 2px 40px;
+    border-radius: 2px;
+    border-top-width: 30px;
+    border-top-style: solid;
+    border-top-color: mintcream;
+}
+
+.banner img{
+    width: 1700px;
+    height: 900px;
+}
+
+
+.header{
+    width: 1700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    background-image: url(../rsc/Untitled\ design\ \(2\).png);
+    margin-top: 30px;
+    background-attachment: fixed;
+}
+
+.inner-header{
+    width: 1200px;
+    height: 400px;
+    background-color: #F2F3F4;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center ;
+   
+}
+.inner-header > h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35pt;
+    text-shadow: 1px 3px 2px salmon;
+}
+
+.inner-header > p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20pt;
+}
+
+
+.products{
+    width: auto;
+    height: 900px;
+    margin-top: 7px;
+}
+
+.product-heading{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.product-heading > h1{
+    color: #F2F3F4;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50pt;
+    text-shadow: 1px 3px 2px salmon;
+    position: relative;
+    right: 176px !important;
+}
+
+.product-heading h1 > a{
+    position: relative;
+left: 50px;
+}
+
+.product-container{
+    width: auto;
+    height: 600px;
+    background-color: #F2F3F4;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.product-container > ul {
+    padding-top: 60px;
+    list-style: none;
+    position: relative;
+    left: 30px;
+}
+
+
+
+.product-container > ul > li{
+    display: inline-block;
+    padding: 5px 5px;
+    }
+
+.prod1{
+    width: 370px;
+    height: 500px;
+    background-color: #262626;
+    border-radius: 5px;
+    border-top-width: 5px;
+    border-top-style:none;
+    border-left-width: 5px;
+    border-left-style: none;
+    border-bottom-width: 5px;
+    border-bottom-style: none;
+    border-right-width: 5px;
+    border-right-style: none;
+    box-shadow: 5px 5px 5px;
+}
+
+.prod1 > img{
+   width: 350px;
+   height: 450px;
+   margin: auto;
+   float: left;
+   position: relative;
+   top: 20px;
+   left: 10px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px;
+}
+
+.qc-check{
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 300px;
+    right: 500px;
+}
+
+.footer-container{
+    width: 1700px;
+    height: 100px;
+    background-color: salmon;
+}
+
+.footer-container > p{
+    font-family: sans-serif;
+    color: #F2F3F4;
+    position: relative;
+    text-align: center;
+    font-size: large;
+}
+
