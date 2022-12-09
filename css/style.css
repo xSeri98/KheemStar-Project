@@ -12,7 +12,7 @@ body{
 
 .container{
     background-color: #262626;
-    max-width: 1700px;
+    width: 1700px;
     height: auto;
     margin: 0 auto;
     box-shadow: 1px 2px 40px;
@@ -20,7 +20,7 @@ body{
 }
 
 .pic-container{
-    max-width: 1700px;
+    width: 1700px;
     height: 400px;
     margin: 0 auto;
     display: block;
@@ -64,7 +64,7 @@ position: relative;
         }
 
 .banner{
-    max-width: 1700px;
+    width: 1700px;
     height: 100%;
     overflow: hidden;
     box-shadow: 1px 2px 40px;
@@ -81,7 +81,7 @@ position: relative;
 
 
 .header{
-    max-width: 1700px;
+    width: 1700px;
     height: 600px;
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ position: relative;
 }
 
 .inner-header{
-    max-width: 1200px;
+    width: 1200px;
     height: 400px;
     background-color: #F2F3F4;
     margin: 0 auto;
@@ -207,7 +207,7 @@ left: 50px;
 }
 
 .footer-container{
-    max-width: 1700px;
+    width: 1700px;
     height: 100px;
     background-color: salmon;
 }
