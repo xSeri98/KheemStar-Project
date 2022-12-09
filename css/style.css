@@ -220,3 +220,92 @@ left: 50px;
     font-size: large;
 }
 
+.contact-us-container{
+    width: 1700px;
+    height: 1500px;
+    background-color: #262626;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-us-content{
+    width: 1500px;
+    height: 1300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    position: relative;
+ 
+}
+
+.contact-us-content img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.contact-us-content td{
+    color: #F2F3F4;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contact-us-content td > input {
+    height: 30px;
+    width: 300px;
+}
+
+.contact-us-content form{
+    position: relative;
+    left: 100px;
+}
+
+.soc-med-links{
+    float: left;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 900px;
+    bottom: 600px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
+    
+  }
+
+  .soc-med-links img{
+    float: left;
+    position: relative;
+    bottom: 80px;
+  }
+
+  .soc-med-links a > img {
+    width: 50px;
+    float: left;
+    position: relative;
+    right: 300px;
+    top: 200px;
+    box-shadow: 10px 5px 20px black;
+    margin-top: 0px;
+    bottom: 100px;
+    top: 130px;
+  }
+
+  .contact-num{
+    color: #F2F3F4;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    left: 60px
+  }
+
+  .location{
+    position: relative;
+    float: left;
+    right: 250px;
+    top: 200px;
+  }
